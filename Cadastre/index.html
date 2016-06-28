@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Cadastre</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header class="main-header clearfix">
+    <div class="main-header__wrap">
+      <nav class="main-nav">
+        <ul>
+          <li><a href="#">Meu YouBike</a></li>
+          <li><a href="#">Vender</a></li>
+          <li><a href="#">Forum</a></li>
+          <li><a href="#">Contato</a></li>
+          <li><a href="#">Ajuda</a></li>
+        </ul>
+      </nav>
+      <div class="user-block">
+        <div class="login">
+          <p>Minhas Ofertas</p>
+        </div>
+        <div class="enter">
+          <p>Ola! <a href="#">Enteral</a> ou <a href="#">Cadastre-se</a></p>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="main-content">
+    <div class="form-content">
+      <h2 class="form-content__title">Cadastre-se</h2>
+      <a href="#" class="facebook">Log In <span>with</span> Facebook</a>
+      <p class="ou">OU</p>
+      <form class="login-form" action="/echo" method="post">
+        <input type="text" name="first_name" placeholder="First Name" required>
+        <input type="text" name="last_name" placeholder="Last Name" required>
+        <input type="email" name="email" placeholder="Email Adress" required>
+        <input type="password" name=" choose_password" placeholder="Choose Password" required>
+        <input type="password" name="confirm_password" placeholder="Password Confirm" required>
+        <input type="checkbox" name="send" id="send_me" required>
+        <label for="send_me">Send me Youbike updates and tips</label>
+        <button type="submit" class="btn">Create my Account</button>
+      </form>
+      <p class="agree">By clicking the button above, you agree to the Terms of Service Xiew our Privacy Policy.</p>
+    </div>
+  </main>
+  </div>
+</body>
+
+</html>
